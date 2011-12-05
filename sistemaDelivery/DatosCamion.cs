@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace sistemaDelivery
 {
-    public partial class Form2 : Form
+    public partial class DatosCamion : Form
     {
-        public Form2()
+        public DatosCamion()
         {
             InitializeComponent();
         }
