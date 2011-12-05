@@ -9,14 +9,14 @@ using System.Windows.Forms;
 
 namespace sistemaDelivery
 {
-    public partial class DatosCliente : Form
+    public partial class DatosOrdenes : Form
     {
-        public DatosCliente()
+        public DatosOrdenes()
         {
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }

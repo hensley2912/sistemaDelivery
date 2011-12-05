@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace sistemaDelivery
 {
-    public partial class MantenimientoCarrero : Form
+    public partial class SelectSuplidor : Form
     {
-        public MantenimientoCarrero()
+        public SelectSuplidor()
         {
             InitializeComponent();
         }

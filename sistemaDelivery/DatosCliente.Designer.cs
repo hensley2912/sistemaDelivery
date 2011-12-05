@@ -71,6 +71,7 @@
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(119, 141);
+            this.textBox4.MaxLength = 30;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(144, 20);
             this.textBox4.TabIndex = 20;
@@ -78,6 +79,7 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(119, 101);
+            this.textBox3.MaxLength = 100;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(144, 20);
             this.textBox3.TabIndex = 19;
@@ -85,6 +87,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(118, 58);
+            this.textBox2.MaxLength = 100;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(144, 20);
             this.textBox2.TabIndex = 18;
@@ -92,9 +95,11 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(118, 24);
+            this.textBox1.MaxLength = 100;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(144, 20);
             this.textBox1.TabIndex = 17;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label5
             // 
@@ -141,7 +146,7 @@
             this.label1.TabIndex = 12;
             this.label1.Text = "Nombre:";
             // 
-            // Form6
+            // DatosCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -158,7 +163,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form6";
+            this.Name = "DatosCliente";
             this.Text = "Clientes";
             this.ResumeLayout(false);
             this.PerformLayout();

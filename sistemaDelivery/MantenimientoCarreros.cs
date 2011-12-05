@@ -9,14 +9,14 @@ using System.Windows.Forms;
 
 namespace sistemaDelivery
 {
-    public partial class DatosCliente : Form
+    public partial class MantenimientoCarreros : Form
     {
-        public DatosCliente()
+        public MantenimientoCarreros()
         {
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void MantenimientoCarreros_Load(object sender, EventArgs e)
         {
 
         }

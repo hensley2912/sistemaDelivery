@@ -9,16 +9,11 @@ using System.Windows.Forms;
 
 namespace sistemaDelivery
 {
-    public partial class DatosCliente : Form
+    public partial class MantenimientoViajes : Form
     {
-        public DatosCliente()
+        public MantenimientoViajes()
         {
             InitializeComponent();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

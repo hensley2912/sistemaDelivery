@@ -9,16 +9,11 @@ using System.Windows.Forms;
 
 namespace sistemaDelivery
 {
-    public partial class DatosCliente : Form
+    public partial class SelectSucursal : Form
     {
-        public DatosCliente()
+        public SelectSucursal()
         {
             InitializeComponent();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

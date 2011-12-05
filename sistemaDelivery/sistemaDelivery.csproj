@@ -46,58 +46,157 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="BuscarCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="BuscarCliente.Designer.cs">
+      <DependentUpon>BuscarCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="BuscarSuplidor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="BuscarSuplidor.Designer.cs">
+      <DependentUpon>BuscarSuplidor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="BuscarCamion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="BuscarCamion.Designer.cs">
+      <DependentUpon>BuscarCamion.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form4.cs">
+    <Compile Include="DatosOrdenes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4.Designer.cs">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <Compile Include="DatosOrdenes.Designer.cs">
+      <DependentUpon>DatosOrdenes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form5.cs">
+    <Compile Include="DatosViaje.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form5.Designer.cs">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <Compile Include="DatosViaje.Designer.cs">
+      <DependentUpon>DatosViaje.cs</DependentUpon>
     </Compile>
-    <Compile Include="MantenimientoCarrero.cs">
+    <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MantenimientoCarrero.Designer.cs">
-      <DependentUpon>MantenimientoCarrero.cs</DependentUpon>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoCamion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoCamion.Designer.cs">
+      <DependentUpon>MantenimientoCamion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoOrdenes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoOrdenes.Designer.cs">
+      <DependentUpon>MantenimientoOrdenes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoSuplidor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoSuplidor.Designer.cs">
+      <DependentUpon>MantenimientoSuplidor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatosSuplidor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatosSuplidor.Designer.cs">
+      <DependentUpon>DatosSuplidor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatosCamion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatosCamion.Designer.cs">
+      <DependentUpon>DatosCamion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatosCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatosCliente.Designer.cs">
+      <DependentUpon>DatosCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoCliente.Designer.cs">
+      <DependentUpon>MantenimientoCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoViaje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoViaje.Designer.cs">
+      <DependentUpon>MantenimientoViaje.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="SelectRecibidor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectRecibidor.Designer.cs">
+      <DependentUpon>SelectRecibidor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectSucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectSucursal.Designer.cs">
+      <DependentUpon>SelectSucursal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectSuplidor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectSuplidor.Designer.cs">
+      <DependentUpon>SelectSuplidor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectViaje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectViaje.Designer.cs">
+      <DependentUpon>SelectViaje.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BuscarCliente.resx">
+      <DependentUpon>BuscarCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="BuscarSuplidor.resx">
+      <DependentUpon>BuscarSuplidor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="BuscarCamion.resx">
+      <DependentUpon>BuscarCamion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form4.resx">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <EmbeddedResource Include="DatosOrdenes.resx">
+      <DependentUpon>DatosOrdenes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form5.resx">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoCamion.resx">
+      <DependentUpon>MantenimientoCamion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoSuplidor.resx">
+      <DependentUpon>MantenimientoSuplidor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatosSuplidor.resx">
+      <DependentUpon>DatosSuplidor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatosCamion.resx">
+      <DependentUpon>DatosCamion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatosCliente.resx">
+      <DependentUpon>DatosCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoCliente.resx">
+      <DependentUpon>MantenimientoCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
